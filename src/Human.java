@@ -29,4 +29,8 @@ public class Human {
   public String toString() {
     return "Человек по имени " + name;
   }
+
+  public void sayHello() {
+    System.out.println("Я родился!");
+  }
 }
