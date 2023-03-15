@@ -24,4 +24,9 @@ public class Human {
   public Human(String name) {
     this.name = name;
   }
+
+  @Override
+  public String toString() {
+    return "Человек по имени " + name;
+  }
 }
